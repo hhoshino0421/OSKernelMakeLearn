@@ -1,0 +1,10 @@
+C:\develop\VisualStudio_workdpace\OS_make\2>nasm -f bin -o boot.bin boot.asm
+
+C:\develop\VisualStudio_workdpace\OS_make\2>nasm -f bin -o kernel.bin kernel.asm
+
+C:\develop\VisualStudio_workdpace\OS_make\2>copy boot.bin+kernel.bin /b kernel.img
+boot.bin
+kernel.bin
+        1 個のファイルをコピーしました。
+
+C:\develop\VisualStudio_workdpace\OS_make\2>

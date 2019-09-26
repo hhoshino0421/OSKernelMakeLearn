@@ -1,0 +1,10 @@
+megs: 32
+
+romimage: file=BIOS-bochs-latest
+vgaromimage: file=VGABIOS-lgpl-latest
+
+floppya:1_44=boot.bin, status=inserted
+
+boot: a
+
+log: bochsout.txt
